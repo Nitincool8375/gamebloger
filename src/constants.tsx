@@ -10,7 +10,7 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
   },
   {
     title: 'My Games',
-    path: '/projects',
+    path: '/mygames',
     icon: <Icon icon="lucide:gamepad" width="24" height="24" />,
     // submenu: true,
     // subMenuItems: [
@@ -21,7 +21,7 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
   },
   {
     title: 'About me',
-    path: '/messages',
+    path: '/about',
     icon: <Icon icon="lucide:user" width="24" height="24" />,
   },
   {
