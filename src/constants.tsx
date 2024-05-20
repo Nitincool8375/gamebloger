@@ -26,7 +26,7 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
   },
   {
     title: 'Blog',
-    path: '/settings',
+    path: '/blog',
     icon: <Icon icon="lucide:book-open" width="24" height="24" />,
   },
 ];

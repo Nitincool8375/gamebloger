@@ -80,12 +80,10 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
       ) : (
         <Link
           href={item.path}
-          className={`flex flex-row space-x-4 items-center p-2 py-5 rounded-lg hover:text-[#45f882] ${item.path === pathname ? 'text-[#45f882]' : ''
-            }`}
+          className={`group flex flex-row space-x-4 items-center p-2 py-5 rounded-lg ${item.path === pathname ? 'text-[#45f882]' : 'text-[#ffffffb3] hover:text-[#45f882]'}`}
         >
           {item.icon}
-          <span className={`text-xl flex text-[#ffffffb3] text-shahow-[0 2.1px black] hover:text-[#45f882] ${item.path === pathname ? 'text-[#45f882]' : ''
-            }`}>{item.title}</span>
+          <span className={`text-xl flex group-hover:text-[#45f882] ${item.path === pathname ? 'text-[#45f882]' : 'text-[#ffffffb3]'}`}>{item.title}</span>
         </Link>
       )}
     </div>

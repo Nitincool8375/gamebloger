@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 export default function GameDetails() {
+
     const breakpoints = {
         375: {
             slidesPerView: 1,
@@ -97,7 +98,7 @@ export default function GameDetails() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src="/images/slider1.png" alt="" className="w-full h-full" />
+                                <img src="/images/slider2.png" alt="" className="w-full h-full" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -107,7 +108,7 @@ export default function GameDetails() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src="/images/slider1.png" alt="" className="w-full h-full" />
+                                <img src="/images/slider2.png" alt="" className="w-full h-full" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -117,7 +118,7 @@ export default function GameDetails() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src="/images/slider1.png" alt="" className="w-full h-full" />
+                                <img src="/images/slider2.png" alt="" className="w-full h-full" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
